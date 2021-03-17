@@ -5,9 +5,6 @@
 
   <image href="https://s0.gifyu.com/images/hello_kitty_Hello_Kitty_Head_ClipArt_in_PNG_File.png" height="512" width="512" />
 
-
-  <circle cx="128" cy="128" r="10" stroke="red" fill="none"  />
-
   <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
 
   <text x="2" y="12" font-size="12" text-anchor="start" fill="red">0</text>
@@ -44,8 +41,53 @@
   <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
 
   <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
-  
-  <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
-</svg>
 
+  <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
+
+  <ellipse fill="#77DD47" stroke="#246614" stroke-width="5" cx="256" cy="270" rx="200" ry="150" opacity="0.2"/>
+
+
+
+
+
+
+
+
+
+
+
+
+  <path d="M456 270 A200 155, 0, 0, 0, 56 270" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M456 270 A200 155, 0, 0, 1, 56 270" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M448 230 A100 60, -40, 0, 0, 430 150" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M430 150 A200 70, -50, 0, 0, 345 110" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M345 110 A200 70, 450, 0, 0, 270 110" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M85 192 A150 70, 50, 0, 1, 179 125" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+
+  <path d="M100 330 A5 1, -10, 0, 0, 40 340" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M100 300 A11 3, 0, 0, 0, 10 300" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M110 360 A11 3, -20, 0, 0, 50 390" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+
+  <path d="M420 330 A5 1, 0, 0, 1, 490 330" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M420 290 A5 1, 0, 0, 1, 500 280" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+  <path d="M400 360 A5 1, 10, 0, 1, 470 380" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
+
+
+
+
+
+
+
+</svg>
     

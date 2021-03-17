@@ -43,8 +43,40 @@
   <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
   <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
 
-  <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
-  <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
-</svg>
+  <rect  x="0" y="128" fill="none" stroke="#036EB7" stroke-width="5" width="384" height="254"/>
+  <path d="M0 235 H110"stroke-width="5" stroke="black"/>
+  <path d="M274 235 A0 0,0 0 0 384 235"stroke-width="5" stroke="black"/>
+  <path d="M275 430 Q310 380, 384 430"stroke-width="5" stroke="brown" fill="none"/>
+  <path d="M384 430 Q400 448, 448 390"stroke-width="5" stroke="brown" fill="none"/>
+  <path d="M192 0 Q150 64, 180 64 h50"stroke-width="5" stroke="yellow" fill="none"/>
+  <path d="M230 64 Q230 70, 192 120"stroke-width="5" stroke="yellow" fill="none"/>
+  <path d="M170 330 Q192 380, 220 330"stroke-width="5" stroke="black" fill="none"/>
+  <path d="M150 384 Q128 400, 128 440"stroke-width="5" stroke="black" fill="none"/>
+  <path d="M240 384 Q256 400, 256 440"stroke-width="5" stroke="black" fill="none"/>
 
+  <path d="M165 490 L225 490" stroke-width="5"stroke="black"/> 
+
+  <path d="M128 415 Q70 448, 80 490"stroke-width="5" stroke="blue" fill="none"/>
+  <path d="M256 415 Q310 448, 310 490"stroke-width="5" stroke="blue" fill="none"/>
+
+
+
+  <path d="M80 490 Q100 490, 120 470"stroke-width="5" stroke="blue" fill="none"/>
+  <path d="M310 490 Q280 490, 270 470" stroke-width="5" stroke="blue" fill="none"/>
+ 
+  <path d="M128 440 Q100 490, 160 500" stroke-width="5"stroke="brown" fill="none"/>
+  <path d="M256 440 Q280 490, 230 500"stroke-width="5" stroke="brown" fill="none"/>
+
+  <path d="M160 500 Q180 450, 128 440" stroke-width="5"stroke="brown" fill="none"/>
+  <path d="M230 500 Q210 450, 256 440" stroke-width="5"stroke="brown" fill="none"/>
+
+  <path d="M440 360 Q430 420, 470 370Z" stroke-width="5"stroke="blue" fill="none"/>
+
+  <path d="M450 362 L460 340" stroke-width="5"stroke="blue"/> 
+  <path d="M460 365 L470 345" stroke-width="5"stroke="blue"/> 
+
+  <path d="M440 310 Q440 310, 430 330 h10 L435 340" stroke="yellow"stroke-width="5" fill="none"/>
+  <path d="M512 330 L 490 340 h15 L485 350" stroke="yellow" stroke-width="5" fill="none"/>
+
+</svg>
     
