@@ -45,15 +45,13 @@
 
   <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
   <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
+  <path d="M175 175 A180 200 0 0 1 335 175
+           A92 92 0 1 1 390 225
+           A158 158 0 1 1 120 225
+           A92 92 0 1 1 175 175
+          " stroke-width="5" stroke="#F00" fill="none"/>
 
-  <path d="M410 320 A128 128, 0, 1, 0, 100 320" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
-  <path d="M410 320 A128 128, 0, 1, 1, 100 320" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
-  <path d="M128 220 A90 90, 0, 1, 1, 167 188" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
-  <path d="M345 188 A90 90, 0, 1, 1, 388 228" stroke-width="10" stroke="#F00" fill="none" opacity="0.3"/>
 
-  <text x="128" y="220" font-size="16" text-anchor="middle" fill="red">(128, 220)</text>
- <text x="388 " y="228" font-size="16" text-anchor="middle" fill="red">(388, 228)</text>
- <text x="345 " y="188" font-size="16" text-anchor="middle" fill="red">(345 ,188)</text>
- <text x="167 " y="188" font-size="16" text-anchor="middle" fill="red">(167 ,188)</text>
+
 </svg>
     
