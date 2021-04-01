@@ -2,6 +2,8 @@
 
 <html>
 	<head>
+	    <meta charset="utf-8">
+	    <title>lab02</title>
 		<script src="https://d3js.org/d3.v4.js"></script>
 		
 		<style>
@@ -25,6 +27,7 @@
 				margin: 0;
 				padding: 10px;
 		        background-color: rgba(255, 255, 0, 0.02);
+		        font-family: 'Noto Serif JP', serif;
 			}
 
 			svg {
@@ -68,9 +71,7 @@
 		</style>
 	</head>
 	<body>
-		<div>
-			Lab 02 treemap
-		</div>
+		<div>lab02 treemap</div>
 		<ul>
 			<li>遠距教學授課防疫演練: 2021.03.18 (四) </li>
 			<li>上台報告: 2021.04.01 (四) </li>
@@ -262,7 +263,7 @@
 								const seconds = isNaN(parseInt(i[3])) ? 40 : parseInt(i[3])
 								
 								d3Json.children.find(e => e.name == bossName).children.push({
-									name: i[0],
+									name: '姓名: ' + i[0],
 									seconds,
 									value: parseFloat(mapping[seconds])
 								})
