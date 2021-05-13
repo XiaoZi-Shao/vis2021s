@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
         .bar {
             fill: #17ac50;
-            border: 1px solid #fff
+
         }
         rect:hover {
             stroke:#ff0000;  
@@ -82,7 +82,9 @@
                 .attr("x", function (d) {
                     return x(d.Date) + (x.bandwidth()) / 2 - fontSize / 2;
                 })
-                .attr("y", height - fontSize / 2)
+                .attr("y", function(d){
+                    return y(d.Amount);
+                })
                 .attr("font-family", "'Dosis', sans-serif")
                 .attr("font-size", 0 + "px");
 
