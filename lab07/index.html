@@ -59,19 +59,19 @@
   <div>
     Drag and Drop 展示區 (接收任何SVG)
     <hr>
-    <p>plz click svg</p>
-    <div style="width:256px;display:inline-block" src="./shao.svg" id="dpfc2" class="playSVG"></div>
-    <div style="width:256px;display:inline-block" src="./wen.svg" id="dpsc2" class="playSVG"></div>
-    <div style="width:256px;display:inline-block" src="./qiang.svg" id="dptc2" class="playSVG"></div>
+    <p>click</p>
+    <div style="width:256px;height:256px;display:inline-block" src="./shao.svg" id="dpfc2" class="playSVG"></div>
+    <div style="width:256px;height:256px;display:inline-block" src="./wen.svg" id="dpsc2" class="playSVG"></div>
+    <div style="width:256px;height:256px;display:inline-block" src="./qiang.svg" id="dptc2" class="playSVG"></div>
   </div>
 
   <script type="text/javascript">
       
     // Your beautiful D3 code will go here
       window.onload = () => {
-          loadWordFromPath('./shao.svg', '#dpfc2',1);
-          loadWordFromPath('./wen.svg', '#dpsc2',1);
-          loadWordFromPath('./qiang.svg', '#dptc2',1);
+          loadWordFromPath('./shao.svg', '#dpfc2');
+          loadWordFromPath('./wen.svg', '#dpsc2');
+          loadWordFromPath('./qiang.svg', '#dptc2');
 
           document.getElementById('dropfile').addEventListener('dragover', (evt) => {
               evt.preventDefault()
