@@ -68,7 +68,7 @@ window.addEventListener('load', function() {
         clearInterval(updateClock);
     };
 
-    d3.text('1.srt').then(function(data) {
+    d3.text('video.srt').then(function(data) {
         var parsedCSV = d3.csvParseRows(data);
         var key;
         var begin;
@@ -116,15 +116,14 @@ window.addEventListener('load', function() {
             .attr('height', HEIGHT)
             .append('text')
             .text('Play')
-            .attr('x', WIDTH / 2)
-            .attr('y', HEIGHT / 2)
+            .attr('x',0)
+            .attr('y', 100)
             .attr('font-size', '60pt')
             .on('click', function() {
                 document.getElementById('play').style.display = 'none';
                 document.getElementById('video').style.display = 'inline';
                 document.getElementById('video').play();
                 playSubtitle();
-                //playTime();
             });
     });
 });
@@ -144,9 +143,6 @@ function playSubtitle() {
         })
         .attr('font-size', '30pt')
         .attr('fill', 'black')
-        .attr('stroke', function(d) {
-            return d.subtitle.includes('迷失') ? 'red' : 'none';
-        })
         .attr('x', WIDTH / 2)
         .attr('y', 700)
         .attr('text-anchor', 'middle')
@@ -160,9 +156,6 @@ function playSubtitle() {
         .transition()
         .delay(function(d) {
             return d.duration * 1000;
-        })
-        .duration(function(d) {
-            return d.subtitle.includes('迷失') ? 500 : 0;
         })
         .attr('opacity', 0);
 }
