@@ -1,0 +1,63 @@
+#wen1 {
+    stroke-width: 12;
+    clip-path: url("#cp2");
+    stroke-dasharray: 250;
+    animation: dash2-1 5s linear forwards;
+}
+@keyframes dash2-1 {
+    0% {
+            stroke-dashoffset: 250;
+}
+    25% {
+            stroke-dashoffset: 0;
+    }
+}
+
+#wen2 {
+    stroke-width: 12;
+    clip-path: url("#cp2");
+    stroke-dasharray: 250;
+    animation: dash2-2 5s linear forwards;
+}
+@keyframes dash2-2 {
+    0%,
+    25% {
+            stroke-dashoffset: 250;
+}
+    50% {
+            stroke-dashoffset: 0;
+    }
+}
+
+#wen3 {
+    stroke-width: 12;
+    clip-path: url("#cp2");
+    stroke-dasharray: 250;
+    animation: dash2-3 5s linear forwards;
+}
+@keyframes dash2-3 {
+    0%,
+    50% {
+            stroke-dashoffset: 250;
+}
+    75% {
+            stroke-dashoffset: 0;
+    }
+}
+
+#wen4 {
+    stroke-width: 12;
+    clip-path: url("#cp2");
+    stroke-dasharray: 250;
+    animation: dash2-4 5s linear forwards;
+}
+@keyframes dash2-4 {
+    0%,
+    75% {
+            stroke-dashoffset: 250;
+}
+    100% {
+            stroke-dashoffset: 0;
+    }
+}
+

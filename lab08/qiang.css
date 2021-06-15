@@ -1,0 +1,153 @@
+#qiang1 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-1 5s linear forwards;
+}
+@keyframes dash3-1 {
+    0% {
+            stroke-dashoffset: 250;
+}
+    10% {
+            stroke-dashoffset: 0;
+    }
+}
+
+#qiang2 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-2 5s linear forwards;
+}
+@keyframes dash3-2 {
+    0%,
+    10% {
+            stroke-dashoffset: 250;
+}
+    20% {
+            stroke-dashoffset: 0;
+    }
+}
+
+#qiang3 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-3 5s linear forwards;
+}
+@keyframes dash3-3 {
+    0%,
+    20% {
+            stroke-dashoffset: 250;
+}
+    30% {
+            stroke-dashoffset: 0;
+    }
+}
+
+#qiang4 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-4 5s linear forwards;
+}
+@keyframes dash3-4 {
+    0%,
+    30% {
+            stroke-dashoffset: 250;
+}
+    40% {
+            stroke-dashoffset: 0;
+    }
+}
+#qiang5 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-5 5s linear forwards;
+}
+@keyframes dash3-5 {
+    0%,
+    40% {
+            stroke-dashoffset: 250;
+}
+    50% {
+            stroke-dashoffset: 0;
+    }
+}
+#qiang6 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-6 5s linear forwards;
+}
+@keyframes dash3-6 {
+    0%,
+    50% {
+            stroke-dashoffset: 250;
+}
+    60% {
+            stroke-dashoffset: 0;
+    }
+}
+#qiang7 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-7 5s linear forwards;
+}
+@keyframes dash3-7 {
+    0%,
+    60% {
+            stroke-dashoffset: 250;
+}
+    70% {
+            stroke-dashoffset: 0;
+    }
+}
+#qiang8 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-8 5s linear forwards;
+}
+@keyframes dash3-8 {
+    0%,
+    70% {
+            stroke-dashoffset: 250;
+}
+    80% {
+            stroke-dashoffset: 0;
+    }
+}
+#qiang9 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-9 5s linear forwards;
+}
+@keyframes dash3-9 {
+    0%,
+    80% {
+            stroke-dashoffset: 250;
+}
+    90% {
+            stroke-dashoffset: 0;
+    }
+}
+#qiang10 {
+    stroke-width: 12;
+    clip-path: url("#cp3");
+    stroke-dasharray: 250;
+    animation: dash3-10 5s linear forwards;
+}
+@keyframes dash3-10 {
+    0%,
+    90% {
+            stroke-dashoffset: 250;
+}
+    100% {
+            stroke-dashoffset: 0;
+    }
+}
+

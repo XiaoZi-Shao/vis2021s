@@ -1,0 +1,107 @@
+#shao1 {
+    stroke-width: 12;
+    clip-path: url("#cp1");
+    stroke-dasharray: 250;
+    animation: dash1-1 5s linear forwards;
+}
+@keyframes dash1-1 {
+    0% {
+            stroke-dashoffset: 250;
+}
+    14% {
+            stroke-dashoffset: 0;
+    }
+}
+
+#shao2 {
+    stroke-width: 20;
+    clip-path: url("#cp1");
+    stroke-dasharray: 250;
+    animation: dash1-2 5s linear forwards;
+}
+@keyframes dash1-2 {
+    0%,
+    14% {
+            stroke-dashoffset: 250;
+}
+    28% {
+            stroke-dashoffset: 0;
+    }
+}
+
+#shao3 {
+    stroke-width: 12;
+    clip-path: url("#cp1");
+    stroke-dasharray: 250;
+    animation: dash1-3 5s linear forwards;
+}
+@keyframes dash1-3 {
+    0%,
+    28% {
+            stroke-dashoffset: 250;
+}
+    42% {
+            stroke-dashoffset: 0;
+    }
+} 
+
+#shao4 {
+    stroke-width: 12;
+    clip-path: url("#cp1");
+    stroke-dasharray: 250;
+    animation: dash1-4 5s linear forwards;
+}
+@keyframes dash1-4 {
+    0%,
+    42% {
+            stroke-dashoffset: 250;
+}
+    46% {
+            stroke-dashoffset: 0;
+    }
+}
+#shao5 {
+    stroke-width: 12;
+    clip-path: url("#cp1");
+    stroke-dasharray: 250;
+    animation: dash1-5 5s linear forwards;
+}
+@keyframes dash1-5 {
+    0%,
+    56% {
+            stroke-dashoffset: 250;
+}
+    70% {
+            stroke-dashoffset: 0;
+    }
+}
+#shao6 {
+    stroke-width: 12;
+    clip-path: url("#cp1");
+    stroke-dasharray: 250;
+    animation: dash1-6 5s linear forwards;
+}
+@keyframes dash1-6 {
+    0%,
+    70% {
+            stroke-dashoffset: 250;
+}
+    84% {
+            stroke-dashoffset: 0;
+    }
+}
+#shao7 {
+    stroke-width: 12;
+    clip-path: url("#cp1");
+    stroke-dasharray: 250;
+    animation: dash1-7 5s linear forwards;
+}
+@keyframes dash1-7 {
+    0%,
+    84% {
+            stroke-dashoffset: 250;
+}
+    100% {
+            stroke-dashoffset: 0;
+    }
+}
